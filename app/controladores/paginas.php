@@ -1,16 +1,13 @@
 <?php
-class Paginas{
-    public function __construct()
-    {
+class Paginas extends Controlador{
+    public function __construct(){
        // echo 'Controlador paginas cargando';
     }
-    public function index()
-    {
-      
+    public function index(){
+      $this->vista('paginas/inicio');
     }
 
-    public function articulo()
-    {
+    public function articulo(){
       
     }
     public function actualizar($num_registro)

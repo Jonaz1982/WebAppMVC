@@ -44,6 +44,7 @@ class Core{
 
        //obterner los posibles parametros
        $this->parametros = $url ? array_values($url):[];
+       
 
        //Llamar callback con parametros array
        call_user_func_array([$this->controladorActual, $this->metodoActual],$this->parametros);
