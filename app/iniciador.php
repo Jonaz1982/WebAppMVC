@@ -1,1 +1,6 @@
-Hola soy el iniciador 
+<?php
+
+// Cargo mis librerias !!!
+require_once'librerias/Base.php';
+require_once'librerias/Controlador.php';
+require_once'librerias/Core.php';
