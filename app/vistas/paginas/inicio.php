@@ -1,1 +1,2 @@
-<H1>PRUEBA DE CARGA VISTA INICIO</H1>
+
+<h1><?php echo $datos['titulo']; ?></h1>
