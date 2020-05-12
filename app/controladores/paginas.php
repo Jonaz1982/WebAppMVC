@@ -1,5 +1,6 @@
 <?php
 class Paginas extends Controlador{
+    
     public function __construct(){
        // echo 'Controlador paginas cargando';
     }
