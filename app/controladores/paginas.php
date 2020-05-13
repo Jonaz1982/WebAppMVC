@@ -2,7 +2,12 @@
 class Paginas extends Controlador{
 
     public function __construct(){
+
+      $this->articuloModelo = $this->modelo('Articulo');
+
        // echo 'Controlador paginas cargando';
+
+
     }
     public function index(){
         $datos=[
