@@ -1,9 +1,9 @@
 <?php
 //Configuracion de acceso ala base de datos
 define('DB_HOST','localhost');
-define('DB_USUARIO','_SU_USUARIO');
+define('DB_USUARIO','root');
 define('DB_PASSWORD','_SUPASSWORD');
-define('DB_NOMBRE','_SU_BASE_DATOS');
+define('DB_NOMBRE','webappmvc');
 
 
 //Ruta de la aplicacion

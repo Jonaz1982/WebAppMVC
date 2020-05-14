@@ -6,12 +6,13 @@ class Paginas extends Controlador{
       $this->articuloModelo = $this->modelo('Articulo');
 
        // echo 'Controlador paginas cargando';
-
-
     }
     public function index(){
+        $articulos = $this->articuloModelo->obtenerArticulo();
+
         $datos=[
-            'titulo'=>'Bienvenidos a WebAppMVC'
+            'titulo'=>'Bienvenidos a WebAppMVC',
+            'articulos' => $articulos
         ];
 
       $this->vista('paginas/inicio',$datos);
